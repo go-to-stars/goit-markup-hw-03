@@ -1,0 +1,211 @@
+:root {
+  --primary-brand-color: #4d5ae5; /* IRIS */
+  --pressed-state-color: #404bbf; /* OCEAN */
+  --dark-color: #2e2f42; /* NAVYBLUE */
+  --text-color: #434455; /* SLATE */
+  --accent-color: #e7e9fc; /* CORNFLOWER */
+  --light-color: #f4f4fd; /* CLOUD */
+  --light-background-color: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--dark-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* =================== components =================== */
+.title {
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+}
+
+.text {
+  color: var(--text-color);
+}
+
+.logotype {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand-color);
+}
+
+.logotype-span {
+  color: var(--dark-color);
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: 0.04em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* =================== /components =================== */
+
+/* =================== index.html =================== */
+/* =================== site header section =================== */
+.header-list-item-text {
+  font-weight: 500;
+  color: var(--dark-color);
+}
+
+.heder-contacts {
+  font-style: normal;
+}
+
+.heder-contacts-list-item-text {
+  color: var(--text-color);
+}
+
+.header-list-item-text:hover,
+.header-list-item-text:focus,
+.heder-contacts-list-item-text:hover,
+.heder-contacts-list-item-text:focus {
+  color: var(--pressed-state-color);
+}
+/* =================== /site header section =================== */
+
+/* =================== site main section =================== */
+/* =================== section hero =================== */
+.hero {
+  background-color: var(--dark-color);
+}
+.hero-title {
+  font-size: 56px;
+  line-height: calc(60 / 56);
+  text-align: center;
+  color: var(--light-background-color);
+}
+.hero-button {
+  color: var(--light-background-color);
+  background-color: var(--primary-brand-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--pressed-state-color);
+}
+/* =================== /section hero =================== */
+
+/* =================== section benefits =================== */
+.benefits-title {
+  display: none;
+}
+/* =================== /section benefits =================== */
+
+/* =================== section works =================== */
+.works-list-item-img {
+  border: 1px solid var(--accent-color);
+}
+/* =================== /section works =================== */
+
+/* =================== section team =================== */
+.team {
+  background-color: var(--light-color);
+}
+
+.team-list-item {
+  background-color: var(--light-background-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-subtitle,
+.team-text {
+  text-align: center;
+}
+/* =================== /section team =================== */
+/* =================== /site main section =================== */
+
+/* =================== site footer section =================== */
+.footer {
+  background-color: var(--dark-color);
+}
+
+.footer-logotype {
+  line-height: calc(21 / 18);
+}
+
+.footer-logotype-span {
+  color: var(--light-color);
+}
+
+.footer-text {
+  color: var(--accent-color);
+}
+/* =================== /site footer section =================== */
+/* =================== /index.html =================== */
+
+/* =================== portfolio.html =================== */
+/* =================== site main section =================== */
+/* =================== section portfolio =================== */
+.portfolio-title {
+  display: none;
+}
+
+.portfolio-button {
+  color: var(--primary-brand-color);
+  background-color: var(--light-color);
+  border: 1px solid var(--accent-color);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--light-background-color);
+  background-color: var(--pressed-state-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio-box-item {
+  border: 1px solid var(--accent-color);
+}
+
+.portfolio-box-item:hover,
+.portfolio-box-item:focus {
+  border: 0.5px solid var(--light-color);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-box-subtitle {
+  color: var(--dark-color);
+}
+/* =================== /section portfolio =================== */
+/* =================== /site main section =================== */
+/* =================== /portfolio.html =================== */
+
+/* =================== oll html files ================== */
+/* =================== components ================== */
+.current {
+  color: var(--pressed-state-color);
+}
+/* =================== /components =================== */
+/* =================== /oll html files ================== */
