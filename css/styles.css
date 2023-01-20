@@ -147,7 +147,7 @@ img {
   padding: 32px 16px;
 }
 
-.section-indent {
+.section {
   padding-top: var(--indent-up-down-section);
   padding-bottom: var(--indent-up-down-section);
   /* outline: 2px solid teal; */
