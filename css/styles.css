@@ -351,7 +351,7 @@ img {
 
 .footer-logotype {
   display: block;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 
   line-height: calc(21 / 18);  
 }
